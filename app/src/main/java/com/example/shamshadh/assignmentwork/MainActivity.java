@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private RecyclerView recyclerView;
     FirebaseRecyclerAdapter<postdetails,postviewohlder> firebaseRecyclerAdapter;
-    FloatingActionButton floatingActionButton;
+    private FloatingActionButton floatingActionButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
